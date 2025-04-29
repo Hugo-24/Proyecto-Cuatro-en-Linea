@@ -43,6 +43,7 @@ print(" 1234567 ")
 print("+" + "-" *7 + "+")
 print(("|" + "." *7 + "|\n") *6, end = "")
 print("+" + "-" *7 + "+")
+
 #Ver el turno actual
 turno_actual = quien_inicia
 ficha_actual = ficha1 if quien_inicia == jugador1 else ficha2
@@ -50,19 +51,19 @@ ficha_actual = ficha1 if quien_inicia == jugador1 else ficha2
 # Pedir columna para poner ficha
 columna = ""
 while columna not in ["1", "2", "3", "4", "5", "6", "7", "S"]:
-    columna = input(f"\n{turno_actual}, indica un número de columna o pulsa [S] para tentar a la suerte: ")
+    columna = input(f"\n{turno_actual}, indica un numero de columna o pulsa [S] para tentar a la suerte: ")
     
     if columna == "S":
         columna = str(random.randint(1, 7)) #random.randint(a, b): genera un número entero aleatorio entre 'a' y 'b' incluidos.
-        print(f"\nSuerte con eso, se eligió aleatoriamente la columna {columna} para tu ficha\n")
+        print(f"\nSuerte con eso, se eligio aleatoriamente la columna {columna} para tu ficha\n")
 
 # Intento pa ver ejemplo
 ejemplo = ""    
 while ejemplo not in ["Y", "N"]:
-    ejemplo = input("¿Deseas ver el ejemplo brindado para el proyecto? Ingresa 'Y' para sí o 'N' para no: ")
+    ejemplo = input("Quiere ver el ejemplo brindado para el proyecto. Ingresa 'Y' para si o 'N' para no: ")
     if ejemplo == "Y":
         imprimir_ejemplo()
     elif ejemplo == "N":
         print("\nHas elegido no mostrar el ejemplo.\n")
     else:
-        print("\nOpción no válida. Continuando sin mostrar el ejemplo.\n")
+        print("\nOpcion no valida. Continuando sin mostrar el ejemplo.\n")
