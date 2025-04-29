@@ -54,12 +54,12 @@ while columna not in ["1", "2", "3", "4", "5", "6", "7", "S"]:
     
     if columna == "S":
         columna = str(random.randint(1, 7)) #random.randint(a, b): genera un número entero aleatorio entre 'a' y 'b' incluidos.
-        print(f"\nmmm...suerte con eso, se eligió aleatoriamente la columna {columna} para tu ficha\n")
+        print(f"\nSuerte con eso, se eligió aleatoriamente la columna {columna} para tu ficha\n")
 
 # Intento pa ver ejemplo
 ejemplo = ""    
 while ejemplo not in ["Y", "N"]:
-    ejemplo = input("\n¿Deseas ver el ejemplo brindado para el proyecto? Ingresa 'Y' para sí o 'N' para no: ")
+    ejemplo = input("¿Deseas ver el ejemplo brindado para el proyecto? Ingresa 'Y' para sí o 'N' para no: ")
     if ejemplo == "Y":
         imprimir_ejemplo()
     elif ejemplo == "N":
