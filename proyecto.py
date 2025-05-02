@@ -69,7 +69,12 @@ while seguir_jugando == True:
             print("Ficha no válida. Por favor elige 'X' o 'O'.")
 
     # Pedir nombre del jugador 2
-    jugador2 = input("\nPor favor indique nombre de participante #2: ")
+    # Validar que el nombre no sea el mismo
+    jugador2 = jugador1
+    while jugador2 == jugador1: 
+        jugador2 = input("\nPor favor indique nombre de participante #2: ")
+        if jugador2 == jugador1:
+            print("El nombre del segundo jugador no puede ser el mismo que el del primero. Por favor, elige otro nombre.") 
 
     # Asignar automáticamente la otra ficha
     if ficha1 == "X":

@@ -1,8 +1,8 @@
-#CUATRO SEGUIDAS 
+## CUATRO SEGUIDAS 
 
 Proyecto final del curso **Fundamentos de Programación** – Juego interactivo desarrollado en Python.
 
-##Descripción
+## Descripción
 
 **Cuatro Seguidas** es un juego de dos jugadores en el que cada uno intenta ubicar cuatro fichas iguales en línea (horizontal, vertical o diagonal) dentro de un tablero de 6 filas por 7 columnas.  
 Este proyecto busca aplicar los fundamentos básicos de programación aprendidos durante el semestre, utilizando estructuras de control, manejo de listas, funciones y lógica condicional.
@@ -21,6 +21,6 @@ Este proyecto busca aplicar los fundamentos básicos de programación aprendidos
 - Visualización de Top-5 del historial.
 - Posibilidad de volver a jugar tras finalizar una partida.
 
-##Requisitos
+## Requisitos
 
 - Python 3.x
