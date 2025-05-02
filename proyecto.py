@@ -103,10 +103,10 @@ while seguir_jugando == True:
     else: 
         ficha_actual = ficha2
     contador_fichas = 0
-    MAX_FICHAS = 42  # 6 filas * 7 columnas
+    fichas_max = 42  # 6 filas * 7 columnas
 
     # Comienza la partida y el conteo de los turnos
-    while contador_fichas < MAX_FICHAS:
+    while contador_fichas < fichas_max:
         columna = ""
         while columna not in ["1", "2", "3", "4", "5", "6", "7", "S"]:
             columna = input(f"\n{turno_actual}, indica un numero de columna o pulsa [S] para tentar a la suerte: ")
