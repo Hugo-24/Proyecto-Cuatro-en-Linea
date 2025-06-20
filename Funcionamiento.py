@@ -1,4 +1,12 @@
 import random
+#Puntaje base: 100 puntos al ganar una partida.
+#Penalización por número de jugadas: entre más fichas uses, menos puntos ganas.
+#   Se descuentan 2 puntos por cada ficha jugada por el ganador.
+#Bonus por usar solo suerte ("S"):
+#    Si todas las jugadas del ganador fueron con suerte, +30 puntos.
+#    Si usó suerte al menos una vez, +10 puntos.
+#Puntaje mínimo garantizado: mínimo 25 puntos por ganar, aunque haya muchas penalizaciones.
+
 #Este codigo es para explicar el funcionamiento de algunas herramientas o funciones de python utilizadas en el codigo del juego de cuatro seguidas.
 
 # --- Explicación del Generador de Números Pseudoaleatorios (PRNG) ---
